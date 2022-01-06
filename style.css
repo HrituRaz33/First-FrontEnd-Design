@@ -1,0 +1,127 @@
+body
+{
+    font-family: 'Oswald', sans-serif;
+    margin: 0%;
+}
+.First-part
+{
+    display: flex;
+}
+.half-width
+{
+    padding: 5%;
+    width: 50%;
+}
+.half-width img
+{ 
+    
+    width: 50%;
+}
+.Text-color
+{
+    color: aqua;
+}
+.button
+{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(206, 255, 71));
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.Line
+{
+    border-left: 2px solid;
+    border-image: linear-gradient(rgb(30, 255, 0), tomato);
+    border-image-slice: 1;
+}
+h1
+{
+    font-size: 40px;
+}
+.My-Misssion
+{
+    display: flex;
+}
+.Mission-part
+{
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+.Mission-part img
+{
+    width: 35%;
+}
+.Mission-part1
+{
+    background-color: rgb(230, 166, 166);
+}
+.Mission-part2
+{
+    background-color: rgb(126, 184, 178);
+}
+.Mission-part3
+{
+    background-color: rgb(223, 205, 128);
+}
+.second-part
+{
+    display: flex;
+    
+}
+.first-width
+{
+    width: 30%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150px 150px;
+}
+
+.first-width img
+{
+    width: 70%;
+    padding: 5%;
+    margin: 12%;
+}
+.second-width
+{
+    width: 70%;
+    margin-top: 3%;
+}
+.forth-part
+{
+    display: flex;
+}
+
+.forth-part-img img
+{
+    width: 60%;
+    float: right;
+    margin-right: 13%;
+
+}
+.forth-part-text
+{
+   margin: 7%;
+}
+.forth-part-img
+{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: bottom right;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.color-red
+{
+    color: rgb(148, 22, 22);
+}
