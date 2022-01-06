@@ -16,9 +16,9 @@ body
 .half-width img
 { 
     
-    width: 50%;
+    width: 70%;
 }
-.Text-color
+.text-color
 {
     color: aqua;
 }
@@ -30,9 +30,9 @@ body
     padding: 10px 20px;
     border-radius: 10px;
 }
-.Line
+.line
 {
-    border-left: 2px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(rgb(30, 255, 0), tomato);
     border-image-slice: 1;
 }
@@ -58,15 +58,15 @@ h1
 }
 .Mission-part1
 {
-    background-color: rgb(230, 166, 166);
+    background-color: rgb(228, 196, 196);
 }
 .Mission-part2
 {
-    background-color: rgb(126, 184, 178);
+    background-color: rgb(194, 221, 218);
 }
 .Mission-part3
 {
-    background-color: rgb(223, 205, 128);
+    background-color: rgb(224, 219, 196);
 }
 .second-part
 {
@@ -84,7 +84,7 @@ h1
 
 .first-width img
 {
-    width: 70%;
+    width: 63%;
     padding: 5%;
     margin: 12%;
 }
@@ -100,22 +100,17 @@ h1
 
 .forth-part-img img
 {
-    width: 60%;
+    width: 85%;
     float: right;
     margin-right: 13%;
-
+    margin-bottom: 10%;
 }
 .forth-part-text
 {
-   margin: 7%;
+   margin-left: 6%;
+   margin-right: 3%;
 }
-.forth-part-img
-{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 150px 150px;
-    background-position: bottom right;
-}
+
 .fifth-part
 {
     display: flex;
@@ -128,13 +123,13 @@ h1
 {
     background-image: url(images/shapes/shape-7.png),url(images/shapes/shape-6.png),url(images/shapes/shape-3.png);
     background-repeat: no-repeat;
-    background-size: 150px 150px;
-    background-position: 15% 0%,78% 50%,15% 100%; 
+    background-size: 100px 100px;
+    background-position: 25% 0%,55% 50%,25% 100%; 
 }
 
 .fifth-width img
 {
-   width: 50%;
+   width: 35%;
    margin-left: 24%;
 }
 footer
