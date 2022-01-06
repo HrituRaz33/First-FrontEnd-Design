@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     margin: 0%;
 }
 .First-part
@@ -118,16 +119,23 @@ h1
 .fifth-part
 {
     display: flex;
-    width: %;
 }
 .fifth-width
 {
     width: 50%;
 }
+.fifth-width-img
+{
+    background-image: url(images/shapes/shape-7.png),url(images/shapes/shape-6.png),url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: 15% 0%,78% 50%,15% 100%; 
+}
+
 .fifth-width img
 {
-    width: 40%;
-    margin-left: 20%;
+   width: 50%;
+   margin-left: 24%;
 }
 footer
 {
