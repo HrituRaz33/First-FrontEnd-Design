@@ -134,9 +134,12 @@ h1
 }
 footer
 {
+    height: 100%;
+    width: 100%;
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 .color-red
 {
